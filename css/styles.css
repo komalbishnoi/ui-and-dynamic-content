@@ -1,0 +1,107 @@
+/*Adobe color scheme-
+https://color.adobe.com/create/color-wheel/?base=2&rule=Analogous&selected=1&name=My%20Color%20Theme&mode=rgb&rgbvalues=1,0.3430976697450969,0.05483744210997743,0.37183659743099123,0.5424109884348407,0.91,0.9901373339304395,1,0.14684846464152945,0.91,0.08813210282379176,0.4152162288609776,0.09684846464152941,1,0.9254357574257022&swatchOrder=0,1,2,3,4*/
+body {
+    background-color: #664C1D;
+}
+
+.box {
+    max-width: 45rem;
+    background-color: #664C1D;
+    background-image: url(../img/on-wood.jpg);
+    background-blend-mode: screen;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1rem;
+    overflow: hidden;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+h1 {
+    font-family: 'Roboto', 'helvetica', sans-serif;
+    font-size: 3rem;
+    color: #A87007;
+    text-shadow: 2px 2px #5C3D04;
+}
+
+.masthead {
+    background-image: url(../img/vegetables.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+input,
+button {
+    width: 350px;
+    line-height: 1.6;
+    background-color: #E1AD4D;
+    color: black;
+    font-family: 'Open Sans Condensed', 'helvetica', sans-serif;
+    font-size: 1.3em;
+    margin: 0;
+    padding: 0px;
+
+}
+
+h2 {
+    font-family: 'Open Sans Condensed', 'helvetica', sans-serif;
+    color: #5C3D04;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+button {
+    color: #E1AD4D;
+    background-color: #A87007;
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: square;
+    text-align: left;
+    width: 350px;
+}
+
+li {
+    font-family: 'Open Sans Condensed', 'helvetica', sans-serif;
+    font-size: 1.5rem;
+    color: #5C3D04;
+    padding-bottom: 5px;
+    s
+}
+
+li:hover {
+    background-color: #E1AD4D;
+}
+
+.error {
+    font-family: 'Open Sans Condensed', 'helvetica', sans-serif;
+    font-size: 1.5rem;
+    color: black;
+}
+
+p {
+    font-family: 'Open Sans Condensed', 'helvetica', sans-serif;
+    font-size: 1.2rem;
+    color: #5C3D04;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    width: 150px;
+    margin: 0 auto;
+}
+
+a {
+    color: #664C1D;
+}
